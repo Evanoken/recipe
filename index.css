@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    text-align: left;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30%;
+    background-color: aquamarine;
+    /* border-radius: 20px; */
+}
+.ul2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+li{
+    font-size: 20px;
+    color: black;
+}
+.ul1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+.ul1 li{
+    font-size: 20px;
+    color: black;
+    background-color:rgb(123, 186, 123);
+    padding: 15px;
+    border-radius: 20px;
+}
+img{
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+}
